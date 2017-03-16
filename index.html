@@ -1,42 +1,56 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Al Sinoy's Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div>
-  <header>
-    <nav>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Experience and Education</a></li>
-    </nav>
-    <img src="me.png" alt="Drawing of Al Sinoy">
-    <h1>Al Sinoy</h1>
-    <p>Location: Vancouver, BC</p>
-  </header>
-  <main>
-    <h2>Background</h2>
-    <p>I'm an Agile Project Manager. Which means I'm either a Scrum Master or Agile Coach depending the choice to agile flow they choose to work.</p>
-    <h2>Goals</h2>
-    <p>I want to master the process effective project management:</p>
-    <ul>
-       <li>Scrum</li>
-       <li>Kanban</li>
-       <li>XP</li>
-       <li>Management 3.0</li>
-    </ul>
-  </main>
-  <footer>
-    <ul>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">LinkedIn</a></li>
-      <li><a href="#">Github</a></li>
-    </ul>
-    <p>Copyright 2017, Al Sinoy</p>
-  </footer>
-</div>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Al Sinoy's Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="main-nav">
+      <ul class="nav">
+        <li class="name">Al Sinoy</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Experience</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">Contact</a></li>
+    </div>
+    <header>
+      <img src="images/me.png" alt="Drawing of Jane Smith" class="profile-image"/>
+      <h1 class="tag name">Hello, I’m Al Sinoy.</h1>
+      <p class="tag location">My home is Vienna, Austria.</p>
+      <p class="tag location">But I live in Vancouver, BC.</p>
+    </header>
+    <main class="flex">
+      <div class="card">
+        <h2>Background</h2>
+          <p>I’m an Agile Project Manager who likes learning new things.
+          <p>I've worked many jobs including</p>
+          <ul>
+            <li>Multimedia Specialist at the UN in Vienna (NGO)</li>
+            <li>Product and Project Management at Wooga (Gaming)</li>
+            <li>Agile Coaching at the Centre for Digital Media (Teaching)</li>
+          </ul>
+          <p>I am driven by shaping high-performing digital development teams and I believe the key ingredients are people and interactions.</p>
+      </div>
+      <div class="card">
+      <h2>Goals</h2>
+        <p>My key working knowledge are:</p>
+        <ul class="skills">
+          <li>Scrum</li>
+          <li>Scrum Mastering</li>
+          <li>Product Ownership</li>
+          <li>Management 3.0</li>
+        </ul>
+        <p>I’d like to work for tech companies that value the inspect-and-adapt mentality to build great teams that build great products.</p>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="#" class="social twitter">Twitter</a></li>
+        <li><a href="#" class="social linkedin">LinkedIn</a></li>
+        <li><a href="#" class="social github">GitHun</a></li>
+      </ul>
+        <p class="copyright">Copyright 2017, Al Sinoy</p>
+    </footer>
+  </body>
 </html>
