@@ -2,4 +2,4 @@
 
 My Git Portfolio Website
 
-I plan to use this as a hub with GitProjects that will showcase all my works and experiments! :)
+I plan to use this as a hub with GitProjects that will showcase all my work and experiments! :)
